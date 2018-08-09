@@ -11,7 +11,8 @@ provider "aws" {
 
 module "mysql-server" {
   source  = "app.terraform.io/SecurityInDepth-Darnold/mysql-server/aws"
-  version = "1.3.0"
+
+  version = "1.2.0"
   service_name = "${var.service_name}"
   db_name = "${var.db_name}"
 }
