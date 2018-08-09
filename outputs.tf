@@ -3,5 +3,5 @@ output "endpoint" {
 }
 
 output "vault_mount" {
-    value = "${moudel.mysql-server.vault_mount}"
+    value = "${module.mysql-server.vault_mount}"
 }
