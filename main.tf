@@ -14,7 +14,7 @@ module "mysql-server" {
   
   # version 4.0.0 - no vault
   # version 5.0.0 - with vault
-  version = "4.0.0"
+  version = "6.0.0"
   service_name = "${var.service_name}"
   db_name = "${var.db_name}"
 }
