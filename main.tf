@@ -10,7 +10,7 @@ provider "aws" {
 }
 
 module "mysql-server" {
-  source  = "app.terraform.io/SecurityInDepth-Darnold/mysql-server/aws"
+  source  = "github.com/HappyPathway/terraform-aws-mysql-server.git"
   
   # git tag -a 7.0.0 -m 'no vault roles'
   # git tag -a 8.0.0 -m 'with vault roles'
