@@ -1,5 +1,5 @@
 data "vault_aws_access_credentials" "creds" {
-  backend = "${var.service_name}/aws"
+  backend = "${var.vault_aws_credentials_path}"
   role    = "ec2_admin"
 }
 
