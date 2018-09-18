@@ -14,7 +14,7 @@ module "mysql-server" {
 
   # git tag -a 7.0.0 -m 'no vault roles'
   # git tag -a 8.0.0 -m 'with vault roles'
-  version = "8.3.1"
+  version = "8.3.2"
 
   service_name = "${var.service_name}"
   db_name      = "${var.db_name}"
