@@ -35,6 +35,6 @@ resource "consul_keys" "app" {
 
   key {
     path = "${var.service_name}/${var.db_name}/db_name"
-    value = "${module.mysql-server.endpoint}"
+    value = "${module.mysql-server.db_name}"
   }
 }
