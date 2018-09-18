@@ -37,4 +37,9 @@ resource "consul_keys" "app" {
     path = "${var.service_name}/${var.db_name}/db_name"
     value = "${module.mysql-server.db_name}"
   }
+
+  key {
+    path = "${var.service_name}/${var.db_name}/service_name"
+    value = "${var.service_name}"
+  }
 }
