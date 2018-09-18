@@ -18,3 +18,9 @@ variable "consul_cluster" {
   type = "string"
   description = "Name of Consul Workspace"
 }
+
+variable "consul_datacenter" {
+  type = "string"
+  description = "Consul Datacenter"
+  defaut = "dc1"
+}
