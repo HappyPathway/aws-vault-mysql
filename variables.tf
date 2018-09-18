@@ -22,5 +22,5 @@ variable "consul_cluster" {
 variable "consul_datacenter" {
   type = "string"
   description = "Consul Datacenter"
-  defaut = "dc1"
+  default = "dc1"
 }
