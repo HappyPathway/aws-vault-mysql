@@ -25,7 +25,7 @@ resource "consul_keys" "app" {
 
   key {
     path = "${var.service_name}/${var.db_name}/identitifier"
-    value = "${module.mysql-server.db_identitifier}"
+    value = "${module.mysql-server.db_identifier}"
   }
 
   key {
